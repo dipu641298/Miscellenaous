@@ -1,3 +1,12 @@
+/* This code takes four 2 dimentional points as input
+and gives intersection point of two lines generated from
+that four points
+Here you'll see point a and b is creating a line
+and point c and p is creating another line
+And this code will output the intersection point of
+these two lines*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
