@@ -78,17 +78,11 @@ void func()
 int main()
 {
 
-   int t;
-   cin >> t;
+   cin >> ax >> ay >> bx >> by >> cx >> cy >> px >> py;
+   if((cx==px && cy==py) || (ax==bx && ay==by)){printf("Case #%d: No solution!\n",kase); continue;}
+   func();
 
-   for(int kase=1; kase<=t; kase++){
-      cin >> ax >> ay >> bx >> by >> cx >> cy >> px >> py;
-      if(cx==px && cy==py){printf("Case #%d: No solution!\n",kase); continue;}
-      func();
-
-      //cout << A1 << " " << B1 << " " << C1 << " " << A2 << " " << B2 << " " << C2 << endl;
-      printf("Case #%d: %.2lf, %.2lf\n",kase,X,Y);
-   }
+   printf("Case #%d: %.2lf, %.2lf\n",kase,X,Y);
 
    return 0;
 }
