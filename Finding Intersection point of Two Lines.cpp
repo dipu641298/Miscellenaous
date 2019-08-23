@@ -77,8 +77,6 @@ void func()
 
 int main()
 {
-   freopen("intrain.txt","r",stdin);
-   //freopen("intraout.txt","w",stdout);
 
    int t;
    cin >> t;
